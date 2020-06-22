@@ -15,7 +15,7 @@ import org.springframework.data.gemfire.config.annotation.EnableEntityDefinedReg
 import org.springframework.data.gemfire.repository.config.EnableGemfireRepositories;
 
 @SpringBootApplication
-@ClientCacheApplication(name = "AccessingDataGemFireApplication", logLevel = "error")
+@ClientCacheApplication(name = "AccessingDataGemFireApplication", logLevel = "config")
 @EnableEntityDefinedRegions(basePackageClasses = Person.class,
         clientRegionShortcut = ClientRegionShortcut.LOCAL)
 @EnableGemfireRepositories
