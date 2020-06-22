@@ -1,0 +1,1 @@
+Uses Spring Data for Pivotal GemFire library to store and retrieve POJOs.
